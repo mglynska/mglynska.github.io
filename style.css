@@ -1,0 +1,38 @@
+html,body
+{margin:0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+
+}
+
+.intro { height: 100%;
+	      width: 100%;
+	     
+	      background-image: url(weather.jpg);
+	      background-repeat: no-repeat;
+	      display: table;
+	      top: 0;
+	      background-size: cover;
+
+}
+
+.intro .inner {
+
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.content {
+	max-width: 500px;
+	marginn: 0 auto;
+	text-align: center;
+
+}
+
+#cooltitle	{color: darkblue;
+
+}
+.text {color: green;
+
